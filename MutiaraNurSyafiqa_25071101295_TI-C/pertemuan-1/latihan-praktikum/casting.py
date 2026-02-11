@@ -1,0 +1,18 @@
+#1 (integer)
+x = int(5)
+y = int(6.743)
+z = int('7')
+print(x,y,z)
+
+#2 (float)
+x = float(5)
+y = float(6.743)
+z = float('7')
+w = float('8.2')
+print(x,y,z,w)
+
+#3 (string)
+x = str("s1") 
+y = str(2)    
+z = str(3.0)
+print(x,y,z)

@@ -16,19 +16,3 @@ def rata_rata(nilai): #Buat sebuah fungsi bernama rata_rata(nilai) & Menerima se
 nilai = [80, 75, 90, 60, 85]
 rata_rata(nilai)
 
-####
-film = [['Danur', 50000], ['Inside Out 2', 45000], ['Avatar', 50000], ['Pengabdi Setan', 40000], ['Jumbo', 35000]]
-
-print('DAFTAR FILM CINEMAJU')
-for i in range(len(film)):
-    print(i+1,'.',film[i][0], ':', film[i][1])
-
-pilih = int(input('Masukkan nomor film : '))
-
-if pilih >= 1 and pilih <= len(film):
-    judul = film[pilih-1][0]
-    harga = film[pilih-1][1]
-    print('Film yang dipilih : ',judul)
-    print('Harga tiket : ',harga)
-else:
-    print('Error: Nomor tidak valid!')
